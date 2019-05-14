@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+  padding:0;
+}
+
+body{
+  font-family: Arial, Helvetics, sans-serif;
+  line-height: 1.4;
+  background-color: ghostwhite;
+}
+
+h1{
+  display:inline;
+}
+
+img{
+  vertical-align: inherit !important;
+}
+
+.strikeText{
+  text-decoration:line-through;
+}
+
+.addBtn{
+  background:silver !important;
+}
+
+.addBtn:hover{
+  background:darkgray !important;
+}
+
+a{
+  color:#333;
+  text-decoration: none;
+}
+
+.btn {
+  display: inline-block;
+  border: none;
+  border-radius: 4px;
+  background: #85C1E9;
+  color: #fff;
+  padding: 7px 20px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 12px;
+  margin:5px;
+}
+
+.deleteBtn{
+  background:#D98880;
+  float: right;
+}
+
+.deleteBtn:hover{
+  background: red !important;
+  color:white;
+}
+
+.viewBtn{
+  background:#008CBA;
+  float:right;
+}
+
+.viewBtn:hover{
+  background: mediumblue !important;
+  color:white;
+}
+
+.appContainer{
+  margin-left:10%;
+  margin-right:10%
+}
+
+.taskImg{
+  width:40px;
+  height: 40px;
+  filter: invert(90%);
+  margin-top:5px;
+}
+
+.taskDelBtn{
+  background-color: transparent;
+  color:black;
+  border:none;
+}
+
+.completeBtn{
+  background-color: transparent;
+  border:none;  
+}
+
+.sectionContainer {
+  border-style: solid;
+  border-color: #ECF0F1;
+  border-top-color: black ;
+  border-top-width: 4px !important;
+  border-width: .5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: white;
+  color: black;
+  padding: 10px;
+  margin:10px;
+  margin-bottom: 0px !important;
+  display:"inline-block";
+  max-height: inherit;
+}
+
+.todosContainer{
+  padding: 20px;
+  margin:10px;
+  margin-top: 0px !important;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: whitesmoke;
+}
+
+.btn:hover{
+  background: #666;
+}
+
+.collapse {
+  display: none;
+}
+
+.collapse.in {
+  display: block;
+}
